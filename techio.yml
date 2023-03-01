@@ -1,0 +1,11 @@
+title: Rust Project
+plan:
+- title: Welcome
+  statement: markdowns/welcome.md
+projects:
+  rust:
+    buildCommand: cargo build
+    root: /rust-project
+    runner:
+      name: techio/rust
+      version: latest
